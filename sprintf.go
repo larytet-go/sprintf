@@ -1,6 +1,8 @@
 package sprintf
 
 import (
+	"bytes"
+	"fmt"
 	"reflect"
 )
 // Reflection based loop which prints all fields in a structure
