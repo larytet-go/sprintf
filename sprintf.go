@@ -5,8 +5,7 @@ import (
 	"fmt"
 	"reflect"
 )
-// Reflection based loop which prints all fields in a structure
-// This function is slow.
+
 // Reflection based loop which prints all fields in a structure
 // This function is slow.
 func SprintfStructure(data interface{}, columns int, format string, skip []string) string {
