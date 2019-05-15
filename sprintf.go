@@ -7,6 +7,8 @@ import (
 )
 // Reflection based loop which prints all fields in a structure
 // This function is slow.
+// Reflection based loop which prints all fields in a structure
+// This function is slow.
 func SprintfStructure(data interface{}, columns int, format string, skip []string) string {
 	skipSet := make(map[string]bool)
 	for _, v := range skip {
